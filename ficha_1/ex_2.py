@@ -1,5 +1,5 @@
-a = 8
-b = 4
+a = 88
+b = 47
 print("Soma:", a + b)     
 print("Subtração:", a - b)        
 print("Multiplicação:", a * b)    

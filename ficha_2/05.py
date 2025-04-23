@@ -1,4 +1,4 @@
-salario = float(input("Salário recebido: "))
+salario = float(input("Salario recebido: "))
 gasto = float(input("Total gasto: "))
 saldo = salario - gasto
 

@@ -12,6 +12,6 @@ elif operacao == '/':
     if num2 != 0:
         print("Resultado:", num1 / num2)
     else:
-        print("Erro: divisão por zero")
+        print("Erro: divisao por zero")
 else:
     print("Operação inválida")

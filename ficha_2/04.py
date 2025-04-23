@@ -1,14 +1,14 @@
-comprimento = float(input("Comprimento: "))
-altura = float(input("Altura: "))
+compri = float(input("Comprimento: "))
+alt = float(input("Altura: "))
 preco_m2 = float(input("Preço por metro quadrado: "))
 
-area = comprimento * altura
+area = compri * alt
 total = area * preco_m2
 
 print(f"Área: {area} m²")
 print(f"Preço total: {total:.2f}€")
 
 if area >= 150:
-    print("Terreno de grande dimensão")
+    print("Tereno de grande dimenao")
 else:
-    print("Terreno de pequena dimensão")
+    print("Tereno de pequena dimensao")

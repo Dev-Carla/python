@@ -1,2 +1,7 @@
-def preco_com_desconto(preco, desconto=10):
-    return preco * (1 - desconto / 100)
+def preco_com_desconto(preco):
+    return preco * 0.9  
+
+preco = float(input("Preço original: "))
+final = preco_com_desconto(preco)
+
+print(f"Preço com 10% de desconto: {final:.2f}$")

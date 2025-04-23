@@ -1,11 +1,11 @@
-numero = int(input("Digite um número: "))
-divisores = 0
+num = int(input("Digite um número: "))
+div = 0
 
-for i in range(1, numero + 1):
-    if numero % i == 0:
-        divisores += 1
+for i in range(1, num + 1):
+    if num % i == 0:
+        div += 1
 
-if divisores == 2:
+if div == 2:
     print("É primo")
 else:
     print("Não é primo")

@@ -15,4 +15,4 @@ match operacao:
         else:
             print("Erro: divisão por zero")
     case _:
-        print("Operação inválida")
+        print("Operação invalida")
